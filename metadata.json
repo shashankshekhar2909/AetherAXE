@@ -1,0 +1,6 @@
+{
+  "name": "AetherAXE Extraction Engine",
+  "description": "An AI-enhanced structured harvesting engine translating raw URLs, documents, and videos into refined, schema-mapped semantic markdown ready for immediate RAG pipeline ingestion.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

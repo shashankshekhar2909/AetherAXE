@@ -1,0 +1,11 @@
+services:
+  app:
+    build: .
+    container_name: aetheraxe-app
+    ports:
+      - "3310:3000"
+    environment:
+      - NODE_ENV=development
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - VITE_HMR_CLIENT_PORT=3310
+    restart: unless-stopped

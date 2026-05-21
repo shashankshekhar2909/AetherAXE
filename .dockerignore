@@ -1,0 +1,12 @@
+node_modules
+dist
+build
+.git
+.gitignore
+.local-agent-context
+.agents
+.codex
+.antigravitycli
+*.log
+.env*
+!.env.example
